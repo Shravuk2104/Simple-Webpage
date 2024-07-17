@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title> Registration form for customer</title>
+</head>
+<style> 
+
+        input, 
+
+        select{ 
+
+            width: 200px; 
+
+            height: 25px; 
+
+            margin: 2px; 
+
+            -moz-box-sizing: border-box; 
+
+            -webkit-box-sizing: border-box; 
+
+            box-sizing: border-box; 
+
+        } 
+       
+
+        body { 
+
+            background-color: pink; 
+
+        } 
+
+    </style>
+<body>
+<!-- Form-->
+<center>
+<form action="">
+	<h2> Registration form </h2>
+	<label for="name">Name : </label>
+	<input type="text" name="name" placeholder="Enter your name " required/>
+	<br><br><br>
+	<label for= "DOB"> Date of Birth : </label>
+	<input type="date" name="DOB" required />
+	<br><br><br>
+	<label for= "email"> Email : </label>
+	<input type="email" name="email" />
+	<br><br><br>
+	<label for= "addr"> Address : </label>
+	<textarea rows=5 cols =20> Enter your address here. </textarea>
+	<br><br><br>
+	<label for="Em_cno">Emergency Contact number : </label>
+	<input type="tel" name="Em_cno" placeholder="Enter Emergency Contact number " required/>
+	<br><br><br>
+	
+	<label> Add your preferences :</label>
+	<select>
+		<option> Sightseeing tours </option>
+		<option> Adventure Tours </option>
+		<option> Cultural Tours </option>
+		<option> Historical Tours </option>
+		<option> Other </option>
+	</select>
+	<br><br><br>
+	
+	
+	
+	<input type="submit" value="Register" />
+	<br><br><br>
+	</center>
+	</form>
+	
+	
+</body>
+</html>
